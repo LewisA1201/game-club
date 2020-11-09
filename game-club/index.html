@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Play Games Club</title>
+	<link rel="stylesheet" href="index-style.css">
+</head>
+
+<body>
+	<div class="club-banner">
+		<div class="wrapper">
+			<h4>Lewis presents</h4>
+			<h1>Fun gaming club<br>
+					Made by experienced gamers<br>
+					Created for new gamers
+			</h1>
+			<h3>All platforms welcome</h3>
+			<a href="#more-info" class="cta alt">More Info</a>
+		</div>
+		<div class="xbox-icon"></div>
+		<div class="kbm-icon"></div>
+		<div class="controller-2"></div>		
+	</div>
+
+	<div id="more-info"></div>
+	<nav>
+		<a href="#" class="logo">Gamer</a>
+		<ul>
+			<li><a href="javascript:()" onclick="showPopup();">Sign Up</a></li>
+			<li><a href="#join">Why Join?</a></li>
+			<li><a href="#more-info">About Us</a></li>
+			</li>
+		</ul>	
+	</nav>
+
+	<div class="more-info">
+		<div class="wrapper">
+			<h2>Join Our Gaming Club</h2>
+			<p>We game all throughout the week, <span class="highlight">especially weekends.</span> If you want to game with us then sign up and join our club. Club members get access to our Discord channel and will be part of a great community.</p>
+			<button class="cta" onclick="showPopup();">Sign Me Up!</button>
+		</div>
+	</div>
+	<div id="join"></div>
+	<div class="sep"></div>
+
+	<div class="join-us">
+		<div class="wrapper">
+			<ul class="nb-list">
+				<li class="red">We won't tolerate any out of order behaviour</li>
+				<li class="blue">We like to be as helpful as we possibly can</li>
+				<li class="orange">Try to stay as active as you can</li>
+				<li class="gray">&nbsp;</li>
+				<li class="green-dragging">Have Fun!</li>
+			</ul>
+		<h3>Left: What We Expect<br/>
+		Below: Why Should You Join?</h3>
+		<p>This club was started because as gamers we feel that the community needs more places for new players to feel welcome. Unlike most groups we don't want only the best of the best, we want a group to relax and have fun with. <br/>We are a group of dedicated players, mainly from the UK/ EU. We prioritise having fun over tryharding 24/7, however we are still a competitiive group. <br/>We like to try and play at least 3 times a week, mostly at weekends or in the evening. We currently have over 100 members in our Discord and have a friendly community to be a part of. If this sounds good to you then go ahead and sign up now.</p>
+		</div>
+	
+	</div>
+
+	<div class="sep"></div>
+
+	<img class="icons-img" src="img/icons-img.jpeg" width="700" height="500" >
+
+
+	<footer>
+		<div class="wrapper">
+			Made by LewisAarons
+		</div>	
+	</footer>
+
+	<div class="popup" id="popup">
+  		<div class="blanket"></div>
+  		<div class="content">
+  			<h2>Fill In Your Details</h2>
+  			<form action="">
+  				<div class="row">
+	  				<div class="item">
+	  					<label>First Name</label>
+	  					<input type="text" placeholder="Gamer" value="Lewis">
+	  				</div>
+	  				<div class="item">
+	  					<label>Last Name</label>
+	  					<input type="text" placeholder="Number1">
+	  				</div>
+	  			</div>
+	  			<div class="row">
+	  				<div class="item">
+	  					<label>Preffered Platform</label>
+	  					<input type="text" placeholder="Xbox, PC">
+	  				</div>
+	  				<div class="item">
+	  					<label>Gamertag</label>
+	  					<input type="text" placeholder="sharpshot">
+	  				</div>
+	  			</div>
+  				<button class="cta">Let's Game!</button>
+
+
+  			</form>
+    		<button class="close" onclick="hidePopup();">X</button>
+    	</div>
+  </div>
+
+  <script src="script.js" type="text/javascript"></script>
+
+</body>
+
+</html>
